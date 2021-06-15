@@ -1,0 +1,15 @@
+
+h1 {
+    margin: 20px;
+    color: crimson;
+}
+
+.regbox {
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+.reglist {
+    margin: 30px;
+}

@@ -1,0 +1,17 @@
+
+#myBitcoin {
+  margin: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background: rgb(12, 168, 16);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 168, 16, 0.44110854503464203) 0%,
+    rgba(34, 115, 203, 0.5242494226327945) 93%
+  );
+  border-radius: 10px;
+  box-shadow: 0 0 30px grey;
+}

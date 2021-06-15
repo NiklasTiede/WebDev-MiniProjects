@@ -1,0 +1,14 @@
+
+# 
+5-fastAPI-microservice/
+6-animated-text/
+6-javascript_basics/
+to_be_sorted/
+
+# IDE
+.idea
+.vscode
+
+# bytecode
+__pycache__
+.pytest_cache

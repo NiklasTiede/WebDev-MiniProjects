@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block body %}
+        <h1>Register</h1>
+
+        <div class="regbox">
+
+        <form action="/register" method="post">
+
+            <input autocomplete="off" autofocus name="first_name" placeholder="First Name" type="text">
+            <input autocomplete="off" autofocus name="first_name" placeholder="First Name" type="text">
+            <input autocomplete="off" autofocus name="last_name" placeholder="Last Name" type="text">
+            <input autocomplete="off" autofocus name="email" placeholder="Email" type="text">
+
+            <select name="sport">
+                <option disabled selected value="">Sport</option>
+                {% for sport in sports %}
+                    <option value="{{ sport }}">{{ sport }}</option>
+                {% endfor %}
+            </select>
+
+            <input type="submit" value="Register">
+
+        </form>
+
+        </div>
+
+{% endblock %}
